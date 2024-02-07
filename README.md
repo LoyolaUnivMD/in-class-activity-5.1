@@ -37,7 +37,7 @@ We are going to practice _**"iterative development"**_: focusing on one aspect o
 
 ## Submit:
 1. To Github:
-    1. Your Java file ( a .java file)
+    1. Your Java file ( a JavaATMWithObjects.java file)
     2. Your algorithm (algorithm.txt)
     3. Your testcases (testCases.txt)
        
