@@ -1,40 +1,46 @@
-# In Class activity 4.2: Mario Kart Game
+# In Class Activity 5.1
+Due: Thursday Feb 15, 2024
 
+## Problem: 
+You need to refactor the ATM application from the last lab (Lab 3) so that it has proper error checking, objects, and methods.
 
-### Introduction: 
+## Purpose: 
+This activity gives you practice with:
+* Designing and programming functions
+* Re-using many of the other aspects of Java we've learned so far
+* Testing code
+* Using loops for error checking
+* Using classes and methods for refactoring code
 
-Create a simple Java program for a Mario Kart game. The game involves players with specific characters, each having a starting speed. Players can boost, which increases their speed.
+## Details:
+You need to refactor some code from Lab 3 so that the following is true:
+* It is now organized using a class, objects, and methods.
+* If the user enters an invalid option they are prompted again, and this continues until they give a valid option
+* If the user enters a negative number to deposit or withdraw, they are asked again, and this continues until they give a valid value.
+* If their balance becomes negative, alert the user it is negative and will be charged 5%.
 
-### Part 1: MarioKartPlayer Class
-Define a Java class called MarioKartPlayer with the following attributes:
+## Steps:
+We are going to practice _**"iterative development"**_: focusing on one aspect of the problem first, then once that works, focusing on the rest of it.
 
-`playerName (String)`: The name of the player.
-`character (String)`: The character chosen for the game (e.g., Mario, Luigi).
-`speed (int)`: The current speed of the player.
+1. Understand the problem
+2. Look over the Lab3 code.
+3. Determine the methods that might make sense in the code. Take at most 20 minutes planning. Refer to your class notes to help you plan!
+4. Re-arrange the code into objects and methods without adding the new error checking. Refer to your notes to help you code!
+5. Test that your code still works using the test cases you developed for Lab 3.
 
-Include the following methods:
-
-- A constructor to initialize the player with a name, character, and starting speed.
-- A boost method that simulates boosting, increasing the player's speed.
-- A displayInfo method to display the player's information (name, character, speed).
-
-### Part 2: MarioKartGame Class
-Create a Java class called MarioKartGame with the following:
-
-In the main method:
-
-- Instantiate two MarioKartPlayer objects with different names, characters, and starting speeds.
-- Display the information of both players.
-- Simulate a boost action for each player.
-- Display the updated information of both players after the boost.
-
-### Instructions:
-Write the code for the MarioKartPlayer and MarioKartGame classes.
-
-Demonstrate the functionality by creating instances of players, displaying their information, boosting, and displaying the updated information.
-
-
+6. Design your error checking functions. Put these designs in algorithm.txt. Look back at your notes to help you do this!
+8. Write your code for the new error checking functions following your algorithm and using good usability principles. Incorporate them into your previously working code.
+9. Properly comment your code with intro comments, function comments, and line comments
+10. Write a set of testcases in testcases.xlsx to test your new functionality (your error checking). Your test cases from Lab 3 should be sufficient for testing in general, so focus on the new ones.
 
 
 
-    
+## Submit:
+1. To Github:
+    1. Your Java file ( a .java file)
+    2. Your algorithm (algorithm.txt)
+    3. Your testcases (testCases.txt)
+       
+
+
+
